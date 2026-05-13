@@ -8,6 +8,7 @@ RUN \
     kitty-terminfo \
     sudo \
     vim \
+    default-mysql-client \
     zsh
 
 RUN useradd -m tifrueh -s /usr/bin/zsh && \
