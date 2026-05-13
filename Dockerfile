@@ -22,4 +22,6 @@ RUN git clone https://github.com/tifrueh/dotfiles /home/tifrueh/.dotfiles
 RUN /home/tifrueh/.dotfiles/shell/install.zsh
 RUN /home/tifrueh/.dotfiles/vim/install.zsh
 
+VOLUME /home/tifrueh/.dotfiles
+
 CMD ["/usr/bin/zsh"]
